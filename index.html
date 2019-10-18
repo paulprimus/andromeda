@@ -10,116 +10,131 @@
     <script type="text/javascript" src="js/explore-austria.js"></script>
 </head>
 
-<body id="explore-austria-body">
+<body id="explore-austria-body">   
     <nav class="bg-gray-200 p-5">
         <div class="flex items-center w-full">
             <div class="flex flex-grow text-gray-700">
-                <a class="font-bold text-md lg:text-3xl" href="#">
-                    Explore Austria
-                </a>
+                <div class="flex-grow">
+                    <a class="font-bold text-md lg:text-3xl hover:text-gray-600" href="#">
+                        Explore Austria
+                    </a>
+                </div>
+                <!-- <div class="flex-shrink bg-gray-300">
+                    <img src="images/CD-logo-austriaguides-ohne-zusatz.png" style="width:10%; height:auto;"></img>
+                </div> -->
             </div>
-            <div
-                class="flex flex-wrap items-center text-sm lg:text-lg tracking-wider text-gray-700 bg-gray-200 invisible md:visible ">
-                <a href=" #responsive-header" class="hover:text-gray-500 mr-4">
+            <div class="flex items-center text-sm lg:text-lg tracking-wider text-gray-700 bg-gray-200 invisible md:visible ">
+                <div>
+                <a href=" #responsive-header" class="hover:text-gray-600 mr-4">
                     Touren
                 </a>
+                </div>
+                <div>
                 <a href="#responsive-header" class="hover:text-gray-600 mr-4">
                     Über uns
                 </a>
+                </div>
+                <div>
                 <a href="html/kontakt.html" class="hover:text-gray-600 mr-4">
                     Kontakt
                 </a>
-                <!-- <svg class="fill-current text-gray-700 inline-block h-8 w-8 mr-4" xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20">
-                    <path
-                        d="M18 9.87V20H2V9.87a4.25 4.25 0 0 0 3-.38V14h10V9.5a4.26 4.26 0 0 0 3 .37zM3 0h4l-.67 6.03A3.43 3.43 0 0 1 3 9C1.34 9 .42 7.73.95 6.15L3 0zm5 0h4l.7 6.3c.17 1.5-.91 2.7-2.42 2.7h-.56A2.38 2.38 0 0 1 7.3 6.3L8 0zm5 0h4l2.05 6.15C19.58 7.73 18.65 9 17 9a3.42 3.42 0 0 1-3.33-2.97L13 0z" />
-                </svg>
-                <svg class="fill-current text-gray-700 inline-block h-8 w-8 mr-4" xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20">
-                    <path
-                        d="M18 2a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4c0-1.1.9-2 2-2h16zm-4.37 9.1L20 16v-2l-5.12-3.9L20 6V4l-10 8L0 4v2l5.12 4.1L0 14v2l6.37-4.9L10 14l3.63-2.9z" />
-                </svg> -->
+                </div>
+            
+                <div class="inline-blick relative">                
+                    <select class="block appearance-none w-full bg-gray-100 border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded  leading-tight focus:outline-none focus:shadow-outline">
+                            <option>Deutsch</option>
+                            <option>Russisch</option>
+                            <option>Ukrainisch</option>
+                    </select>    
+                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+                </div>            
+                          
             </div>
 
         </div>
     </nav>
-    <div class="container mx-auto w-full">
-        <div class="text-center mt-4 h-40 ">
-            <h3 class="text-gray-700 text-3xl font-semibold">Herzlich Willkommen!</h3>
-            <h5 class="text-gray-700 text-lg font-semibold">Wollen Sie Österrich mit uns entdecken</h5>
-            <h5 id="xxxx" class="text-gray-700 text-lg font-semibold" data-i18n="main.header">(test)</h5>
+    <div class="relative w-full ">
+        <div class="absolute inset-y-0 top-0 z-0 ml-3 lg:ml-10">
+            <div><img src="images/442px-Austria_Bundesadler.png" class="wappen"></img></div>
         </div>
-    </div>
-    <section class=" mb-8">
-        <div class="container mx-auto bg-gray-200">
-            <div class="mt-4 mb-2">
-                <h3 class="text-gray-700 text-2xl font-semibold">Führungen</h3>
-            </div>
-            <div class=" flex w-full">
-                <div class="w-full md:w-1/3 px-2">
-                    <div class="rounded overflow-hidden bg-white">
-                        <img class="w-full rounded" src="images/erfolgstreppe.jpg" alt="Sunset in the mountains">
-                        <div class="px-6 py-4">
-                            <div class="text-gray-700 font-bold text-xl mb-2">Wien im Überblick</div>
-                            <p class="text-gray-700 text-base">
-                                Unsere Überblicksführungen geben Ihnen einen umfassenden Eindruck über Wien.
-                            </p>
-                        </div>
-                        <div class="px-6 py-4">
-                            <span
-                                class="inline-block bg-gray-300 rounded-full px-4 py-2 text-sm font-semibold text-gray-700 mr-2">
-                                <a href="#">Führung anfragen</a></span>
-                            <span
-                                class="inline-block bg-gray-300 rounded-full px-4 py-2 text-sm font-semibold text-gray-700 mr-2">
-                                <a href="#">Mehr erfahren</a></span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="w-full md:w-1/3 px-2">
-                    <div class="rounded overflow-hidden bg-white">
-                        <img class="w-full rounded" src="images/erfolgstreppe.jpg" alt="Sunset in the mountains">
-                        <div class="px-6 py-4">
-                            <div class="font-bold text-xl mb-2">Museen</div>
-                            <p class="text-gray-700 text-base">
-                                Wien bietet eine Fülle an Museen mit Kunstwerken und Sammlungen von Weltrang.
-                            </p>
-                        </div>
-                        <div class="px-6 py-4">
-                            <span
-                                class="inline-block bg-gray-300 rounded-full px-4 py-2 text-sm font-semibold text-gray-700 mr-2">Führung
-                                anfragen</span>
-                            <span
-                                class="inline-block bg-gray-300 rounded-full px-4 py-2 text-sm font-semibold text-gray-700 mr-2">Mehr
-                                erfahren</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="w-full md:w-1/3 px-2">
-                    <div class="rounded overflow-hidden bg-white">
-                        <img class="w-full rounded" src="images/Wien_09_Votivpark_g.jpg" alt="Sunset in the mountains">
-                        <div class="px-6 py-4">
-                            <div class="font-bold text-xl mb-2 text-gray-700">Gärten und Parkanlagen</div>
-                            <p class="text-gray-700 text-base">
-                                Wiens Grünflächen nehmen einen großen Teil der Stadt ein.
-                            </p>
-                        </div>
-                        <div class="px-6 py-4">
-                            <span
-                                class="inline-block bg-gray-300 rounded-full px-4 py-2 text-sm font-semibold text-gray-700 mr-2">Führung
-                                anfragen</span>
-                            <span
-                                class="inline-block bg-gray-300 rounded-full px-4 py-2 text-sm font-semibold text-gray-700 mr-2">Mehr
-                                erfahren</span>
-
-                        </div>
-                    </div>
-                </div>
-
+        <div class="container z-10 mx-auto w-full">
+            <div class="text-center mt-4  ">
+                <h3 class="text-gray-700 text-3xl font-semibold">Herzlich Willkommen!</h3>
+                <h5 class="text-gray-700 text-lg font-semibold">Wollen Sie Österrich mit uns entdecken</h5>
+                <!--   <h5 id="xxxx" class="text-gray-700 text-lg font-semibold" data-i18n="main.header">(test)</h5> -->
             </div>
         </div>
-    </section>
+        <section class="relative container  mx-auto ">
+            <div class="z-10 ">
+                <div class="mt-4 mb-2">
+                    <h3 class="text-gray-700 text-2xl font-semibold">Führungen</h3>
+                </div>
+                <div class=" md:flex w-full">
+                    <div class="w-full md:w-1/3 px-2">
+                        <div class="rounded overflow-hidden bg-white">
+                            <img class="w-full rounded" src="images/erfolgstreppe.jpg" alt="Sunset in the mountains">
+                            <div class="px-6 py-4">
+                                <div class="text-gray-700 font-bold text-xl mb-2">Wien im Überblick</div>
+                                <p class="text-gray-700 text-base">
+                                    Unsere Überblicksführungen geben Ihnen einen umfassenden Eindruck über Wien.
+                                </p>
+                            </div>
+                            <div class="px-6 py-4">
+                                <span
+                                    class="inline-block bg-gray-300 rounded-full px-4 py-2 text-sm font-semibold text-gray-700 mr-2 mb-1">
+                                    <a href="#">Führung anfragen</a></span>
+                                <span
+                                    class="inline-block bg-gray-300 rounded-full px-4 py-2 text-sm font-semibold text-gray-700 mr-2">
+                                    <a href="#">Mehr erfahren</a></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w-full md:w-1/3 px-2">
+                        <div class="rounded overflow-hidden bg-white">
+                            <img class="w-full rounded" src="images/erfolgstreppe.jpg" alt="Sunset in the mountains">
+                            <div class="px-6 py-4">
+                                <div class="font-bold text-xl mb-2">Museen</div>
+                                <p class="text-gray-700 text-base">
+                                    Wien bietet eine Fülle an Museen mit Kunstwerken und Sammlungen von Weltrang.
+                                </p>
+                            </div>
+                            <div class="px-6 py-4">
+                                <span
+                                    class="inline-block bg-gray-300 rounded-full px-4 py-2 text-sm font-semibold text-gray-700 mr-2 mb-1">Führung
+                                    anfragen</span>
+                                <span
+                                    class="inline-block bg-gray-300 rounded-full px-4 py-2 text-sm font-semibold text-gray-700 mr-2">Mehr
+                                    erfahren</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w-full md:w-1/3 px-2">
+                        <div class="rounded overflow-hidden bg-white">
+                            <img class="w-full rounded" src="images/Wien_09_Votivpark_g.jpg" alt="Sunset in the mountains">
+                            <div class="px-6 py-4">
+                                <div class="font-bold text-xl mb-2 text-gray-700">Gärten und Parkanlagen</div>
+                                <p class="text-gray-700 text-base">
+                                    Wiens Grünflächen nehmen einen großen Teil der Stadt ein.
+                                </p>
+                            </div>
+                            <div class="px-6 py-4">
+                                <span
+                                    class="inline-block bg-gray-300 rounded-full px-4 py-2 text-sm font-semibold text-gray-700 mr-2 mb-1">Führung
+                                    anfragen</span>
+                                <span
+                                    class="inline-block bg-gray-300 rounded-full px-4 py-2 text-sm font-semibold text-gray-700 mr-2">Mehr
+                                    erfahren</span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
 
     </div>
     <div>
@@ -127,6 +142,7 @@
             <p class="text-sm">©Copyright 2019 by Paul Primus. All rights reversed.</p>
         </footer>
     </div>
+</div>
 </body>
 
 </html>
